@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    margin: 150px;
+    text-align: center;
+    border: 7px solid rgba(85, 85, 85, 0.623);
+    border-radius: 20px;
+    padding: 30px;
+    background-color: black;
+    font-family: Orbitron;
+    color: rgb(201, 201, 201);
+}
+
+#day{
+    font-size: 24px;
+    font-weight: 600;
+}
+
+#clock{
+    font-size: 60px;
+    font-weight: 700;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+}
+ #hr,#min,#sec{
+   width: 140px;
+   margin: 0;
+   padding: 0;
+ }
